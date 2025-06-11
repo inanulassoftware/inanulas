@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+< lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>Portfolio Website</title>
+</head>
+<body>
+
+    <section id="home">
+        <nav>
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                İnan Ulaş <span>Karataş</span>
+            </div>
+            <div class="nav-container">
+                <div class="links">
+                    <a href="#home" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">Home</a>
+                    <a href="#skills" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">Skills</a>
+                    <a href="#about" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">About</a>
+                    <a href="#services" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">Services</a>
+                    <a href="#contact" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">Contact</a>
+                </div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>    
+            </div>
+        </nav>
+
+            <div class="main-container">
+
+                <div class="content">
+                    <h1 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">Hey I'm <span>Oytun</span></h1>
+                    <div data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800" class="typewriter">I'm a <span class="typewriter-text"></span><label for="">|</label></div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, quod quibusdam ratione illo consectetur atque non iusto aspernatur numquam.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/inanulassoftware"><i id="sosyalikon" class="fa-brands fa-github" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"></i></a>
+                    </div>
+                    <button id="butoncv" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1700">Download CV</button>
+                </div>
+                <div class="image" data-aos="zoom-in" data-aos-duration="2000">
+                    <img src="resimler/main.png" alt="">
+                </div>
+            </div>
+        </section>
+
+    <section id="skills">
+            <h1 id="skillsh11">SKILLS</h1>
+            <div class="skillss" id="html" data-aos="fade-right" data-aos-duration="1500">
+                <h1 class="skillssh1" id="htmlh1">HTML</h1>
+                <p class="skillssp" id="htmlp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quibusdam nisi laudantium aspernatur? Asperiores natus nesciunt odit fugiat, velit consequuntur?</p>
+                <img class="htmlresim" src="resimler/Adsız tasarım (21).png" alt="">
+
+            </div>
+
+            <div class="skillss" id="css" data-aos="fade-right" data-aos-duration="1500" >
+                <h1 class="skillssh1" id="cssh1">CSS</h1>
+                <p class="skillssp" id="cssp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam quibusdam nisi laudantium aspernatur? Asperiores natus nesciunt odit fugiat, velit consequuntur?</p>
+                <img id="cssimg" class="htmlresim" src="resimler/Adsız tasarım (27).png" alt="">
+
+            </div>
+
+            <div  class="skillss" id="javascript" data-aos="fade-right" data-aos-duration="1500">
+                <h1 id="jsh1" class="skillssh1" id="javascripth1">JAVASCRIPT</h1>
+                <p class="skillssp" id="javascriptp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quia, dolore animi nihil tempora modi sapiente ipsam doloribus fuga delectus?</p>
+                <img class="htmlresim" src="resimler/Adsız tasarım (23).png" alt="">
+
+            </div>
+
+            <div class="skillss" id="pixelart" data-aos="fade-right" data-aos-duration="1500">
+                <h1 class="skillssh1" id="pixelarth1">PHP</h1>
+                <p class="skillssp" id="pixelartp">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod ipsum dolore nisi adipisci eum cum consectetur dolor architecto iure blanditiis.</p>
+                <img class="htmlresim" src="resimler/Adsız tasarım (24).png" alt="">
+
+            </div>
+
+            <div class="skillss" id="logodesign" data-aos="fade-right" data-aos-duration="1500">
+                <h1 class="skillssh1" id="logodesingh1">Design</h1>
+                <p class="skillssp" id="logodesignp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Quisquam, voluptatibus. Quisquam, voluptatibus.</p>
+                <img class="htmlresim" src="resimler/Adsız tasarım (25).png" alt="">
+
+            </div>
+        </section>
+
+    <section id="about">
+            <h1 id="abouth1">About Me</h1>
+            <img id="aboutimg" src="resimler/main.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt libero doloribus fugiat expedita numquam incidunt esse delectus ab natus quisquam?</p>
+            <button id="aboutbt">Contact Me</button>
+        </section>
+    
+    <section id="services">
+      <h1 id="servicesh1h1">Services</h1>
+
+      <div class="services-container">
+        <div class="service-box">
+          <i class="fa-solid fa-laptop-code service-icon"></i>
+          <h1 class="service-title">Web Development</h1>
+          <button class="service-button"><a class="aajax" href="">Contact Now</a></button>
+        </div>
+
+        <div class="service-box">
+          <i class="fa-solid fa-pen-nib service-icon"></i>
+          <h1 class="service-title">Design</h1>
+          <button class="service-button"><a class="aajax" href="">Contact Now</a></button>
+        </div>
+      </div>
+    </section>
+
+  <section id="contact"> 
+    <div id="contact-container">
+      <h1 id="contacth1">Contact Me</h1>
+      <form id="contactform">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="success-message" style="display: none; color: lightgreen; text-align: center; margin-top: 20px;">
+        Your message has been sent successfully!
+      </p>
+    </div>
+  </section>
+
+  <!-- AOS (isteğe bağlı) -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+  </script>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    // Sayfa tamamen yüklendikten sonra çalıştır
+    window.addEventListener("load", function () {
+    emailjs.init("iYmUL6oUmkPhJCZwI");
+    });
+
+    document.getElementById("contactform").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      emailjs.sendForm("service_4bpl31v", "template_u3zeezn", this) // <-- BURAYI KENDİ SERVICE VE TEMPLATE ID'LERİNE GÖRE GÜNCELLE
+        .then(() => {
+          document.getElementById("success-message").style.display = "block";
+          document.getElementById("contactform").reset();
+          setTimeout(() => {
+            document.getElementById("success-message").style.display = "none";
+          }, 5000);
+        }, (error) => {
+          alert("Mesaj gönderilirken bir hata oluştu: " + JSON.stringify(error));
+        });
+    });
+  </script>
+
+
+</body>
+</html>
